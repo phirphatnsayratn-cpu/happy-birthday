@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday 🎂</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ดาวพื้นหลัง -->
+    <div class="stars"></div>
+
+    <!-- ลูกโป่ง -->
+    <div class="balloons">
+        <div class="balloon b1">🎈</div>
+        <div class="balloon b2">🎈</div>
+        <div class="balloon b3">🎈</div>
+        <div class="balloon b4">🎈</div>
+        <div class="balloon b5">🎈</div>
+    </div>
+
+    <main class="container">
+
+        <p class="small-text">✨ วันนี้เป็นวันพิเศษ ✨</p>
+
+        <h1>HAPPY BIRTHDAY</h1>
+
+        <h2>🎂 น้องรัก 🎂</h2>
+
+        <p class="intro">
+            ขอให้วันนี้เป็นวันที่มีแต่รอยยิ้ม<br>
+            และมีความสุขมาก ๆ นะ 💖
+        </p>
+
+        <!-- เค้ก -->
+        <div class="cake">
+            <div class="candle">
+                <div class="fire"></div>
+            </div>
+
+            <div class="cake-top"></div>
+            <div class="cake-body"></div>
+            <div class="cream"></div>
+        </div>
+
+        <button onclick="surprise()">
+            🎁 เปิดเซอร์ไพรส์
+        </button>
+
+        <!-- ข้อความเซอร์ไพรส์ -->
+        <div id="message" class="message">
+            <h3>💖 ถึงน้องคนเก่ง 💖</h3>
+
+            <p>
+                สุขสันต์วันเกิดนะ<br><br>
+
+                ขอให้ปีนี้เป็นปีที่ดีมาก ๆ<br>
+                เจอแต่เรื่องดี ๆ คนดี ๆ<br>
+                มีความสุขในทุก ๆ วัน<br>
+                อยากได้อะไรก็ขอให้สมหวัง 🎁<br><br>
+
+                โตขึ้นอีกปีแล้ว<br>
+                ก็อย่าลืมดูแลตัวเองด้วยนะ 😊<br><br>
+
+                <b>รักและเป็นห่วงเสมอ ❤️</b>
+            </p>
+
+            <div class="photo">
+    <img src="nong.jpg" alt="nong.jpg">
+</div>
+        </div>
+
+    </main>
+
+    <div id="hearts"></div>
+
+    <script src="script.js"></script>
+<audio id="birthdayMusic" loop>
+    <source src=birthday.mp3 type="audio/mpeg">
+</audio>
+</body>
+</html>
