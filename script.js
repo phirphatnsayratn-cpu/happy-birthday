@@ -1,7 +1,17 @@
 function surprise() {
 
+    // เปิดเพลง
     const music = document.getElementById("birthdayMusic");
-music.play();
+
+    if (music) {
+        music.volume = 1;
+        music.play().catch(function(error) {
+            console.log("ไม่สามารถเล่นเพลงได้:", error);
+        });
+    }
+
+    // เปิดข้อความ
+    const message = document.getElementById("message");
     message.classList.add("show");
 
     // สร้างหัวใจ
